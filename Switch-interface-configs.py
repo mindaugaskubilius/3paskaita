@@ -15,7 +15,7 @@ class interface:
         #print("set interfaces", self.interface_name, "unit 0 family ethernet-switching interface-mode access" + "\n")
         c = int(des[5:])
         b = int(nam[2:])
-        #veliau si kintamaji lokacija naudosiu cikle
+        veliau si kintamaji lokacija naudosiu cikle
         lokacija=str(des[:5])
 
         client_list = [ des[5], des[6], des[7]]
@@ -56,6 +56,6 @@ class interface:
             iteracija = iteracija + 1
             b = b + 1
             c = c + 1
-
+#
 interface1 = interface(input("Nurodykite startini interface'a : "), input("Nurodykite startini serverio description'a: "))
 interface1.funkcija1()
